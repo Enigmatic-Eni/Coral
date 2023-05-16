@@ -1,0 +1,368 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Cairo&family=Kdam+Thmor+Pro&family=Poppins:ital,wght@0,100;0,300;0,600;0,700;1,100;1,300&family=Roboto+Mono:wght@400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   text-align: center;
+    padding: 1rem 1.5rem ;
+    border-bottom: #E3E3E3
+    solid 1px;
+    position: fixed;
+    z-index: 3;
+    width: 97%;
+    background-color: #F1F1F1;
+}
+#head li {
+    display: inline-block;
+    margin-left: -0.2rem;
+    margin-right: 0.2rem;
+}
+#head li a{
+    padding: 0px 4px;
+    text-decoration: none;
+    color: black;
+    font-family: 'poppins', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+#head li a:hover{
+    text-decoration: underline;
+    color: rgb(173, 18, 18);
+}
+#logo{
+    font-weight: 400;
+    font-size: 28px;
+    font-family: 'AmstelvarAlpha';
+    line-height: 34px;
+}
+nav{
+    background-color: #F1F1F1;
+    width: 100%;
+    text-align: center;
+    padding-top: 4.2rem ;
+}
+nav .menu{
+    list-style: none;
+}
+
+nav .menu li{
+    display: inline-block;
+    position: relative;
+}
+nav .menu li a{
+    padding: 10px 15px;
+    display: block;
+}
+nav li a{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-decoration: none;
+    color: #000;
+}
+nav li a:hover{
+    text-decoration: underline;
+    color: rgb(173, 18, 18);
+}
+.container-2{
+    background-color: #F1F1F1;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    letter-spacing: 1.3px;
+}
+.collections{
+    flex-basis: 56%;
+    position: relative;
+    margin-left: 20px;
+}
+.row-2{
+    position: relative;
+    flex-basis: 44%;
+    display: flex;
+    align-items: center;
+}
+.row-2 img{
+    width: 90%;
+    margin-top: 38px;
+}
+.collections h1{
+    font-weight: 500;
+    font-size: 64px;
+} 
+.collections p{
+    font-size: 20px;
+    line-height: 65px;
+}
+.collections button{
+    margin-top: 20px;
+    font-size: 15px;
+    padding: 9px;
+    background-color: #1E2832;
+    border: none;
+    color: #fff;
+}
+.collections button:hover{
+    background-color:rgb(173, 18, 18);
+}
+.brands img {
+    display: inline-block;
+    padding: 20px 10px;
+
+}
+.brands{
+    text-align: center;
+}
+.models{
+    display: flex;
+    flex-direction: row;
+}
+.model-picture{
+    padding: 12px;
+}
+.photo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.heading-2{
+    font-weight: 500;
+font-size: 45px;
+text-align: center;
+padding-top: 40px;
+padding-bottom: 40px;
+}
+.product-menu button i{
+   color: #fff;
+   padding: 0 10px;
+}
+.product-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.menu-1 ul li{
+    display: inline-block;
+    padding: 0px 40px;
+    text-decoration: none;
+}
+.menu-1 li a {
+    text-decoration: none;
+    color: #7777;
+    font-weight: 400;
+}
+.menu-1 li a:hover{
+    color: #000;
+}
+#first{
+    font-weight: 600;
+    color: #000;
+}
+#first:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.btu{
+    padding-right: 20px;
+}
+.btu  button{
+    font-size: 15px;
+    padding: 6px 12px;
+    background-color: #1E2832;
+    color: #fff;
+    border: none;
+}
+.model2{
+    display: flex;
+    flex-direction: row;
+    gap: 14px;
+    margin-top: 35px;
+    margin-left: 30px;
+}
+.model2 img{
+    width: 100%;
+
+}
+.model2 p{
+    font-weight: 600;
+    font-size: 16px;
+}
+section{
+    display: flex;
+    flex-direction: row;
+    gap: 14px;
+}
+#best-sellers{
+    padding-top: 20px;
+}
+/* .zara{
+    position: relative;
+    margin-top: 90px;
+}
+.zara::after{
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.zara .zarap{
+    position: absolute;
+    top: 13%;
+    left: 67%;
+} */
+.zarap { 
+    margin-top: 5em;
+    font-weight: 400;
+    letter-spacing: 2.2px;
+    color: #fff;
+    width: 100%;
+    height: 100vh;
+    background-image: url(./pictures/andrey-zvyagintsev-EQj1ZMpq_VM-unsplash\ 1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: right;
+}
+.zarapc a{
+    background-color: #fff;
+    padding: 10px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #000;
+}
+.zarapc p{
+    margin: 15px 0 40px 0;
+}
+.zarapc{
+    width: 35%;
+    padding-top: 8rem;
+    padding-right: 4rem;
+}
+.instagram{
+    background-color: #F1F1F1;
+    margin-top: 90px;
+    padding: 50px;
+    text-align: center;
+}
+.instagram p{
+    font-weight: 500;
+    font-size: 30px;
+    text-align: center;
+}
+.socials{
+    text-align: center;
+    padding: 30px;
+   width: 98%;
+}
+.instagram input{
+    border: none;
+    border-bottom: #000 solid 2px;
+    background-color: #F1F1F1;
+    width: 20%;
+    margin-right: 20px;
+    margin-top: 60px;
+}
+.instagram button{
+    border: none;
+    border-bottom: #000 solid 2px;
+    color: #000;
+}
+.instagram button:hover{
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+}
+.texts{
+    padding: 6rem 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.cor{
+    font-family: 'AmstelvarAlpha';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+}
+#text-1{
+    font-weight: 400;
+    font-size: 15px;
+}
+.t1{
+    width: 22%;
+    padding-bottom: 15px;
+}
+.lorem{
+    padding: 15px 0;
+    letter-spacing: 2px;
+    line-height: 30px;
+}
+#text-1 img{
+    padding-right: 10px;
+}
+#logg , #abt , #cus{
+    font-weight: 600;
+    font-size: 16px;
+}
+#text-2 p , #text-3 p , #text-4 p{
+    padding: 8px 0;
+}
+footer{
+    padding: 15px;
+    background-color: #1E2832;
+    display: flex;
+    justify-content: space-between;
+}
+footer div{
+    font-size: 12px;
+    color: #fff;
+}
+footer a{
+    color: #fff;
+}
+
+@media(max-width:970px){
+    section{
+        flex-direction: column;
+    }
+}
+
+@media(max-width: 760px){
+    .models{
+        flex-direction: column;
+    }
+}
+
+@media(max-width: 800px){
+    .container-2{
+        flex-direction: column;
+        padding-bottom: 40px;
+    }
+    .collections{
+        width: 100%;
+        text-align: center;
+    }
+    .row-2 img{
+        width: 100%;
+    }
+}
+@media(max-width:870px){
+    .texts{
+        padding: 20px;
+    }
+    .t1{
+        width: 40%;
+    }
+}
